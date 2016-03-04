@@ -1,5 +1,5 @@
 # A lightweight deep learning module
-###### Implementation of some deep learning models based on Theano
+Implementation of some deep learning models based on Theano, GPU capable.
 
 ## Example:
 ```
