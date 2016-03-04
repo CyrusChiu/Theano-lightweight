@@ -1,15 +1,14 @@
 # A lightweight deep learning module
 ###### Implementation of some deep learning models based on Theano
 
------
 ## Example:
-``
+```
 from modelcompiler import ModelCompiler
 from models import LSTM
 
 lstm = ModelCompiler(LSTM, config, optimizer="RMSprop")
 lstm.train(x_train, y_train, x_val, y_val, save_model=True)
-``
+```
 Please see the `example.py` for more details
 
 `class ModelCompiler`with method:
@@ -20,7 +19,6 @@ Please see the `example.py` for more details
 - `porba()` get prediction score
 
 
------
 ### Included models: 
 - DNN (multi-layers MLP)
 - Vanilla RNN (Recurrent Neural Networks)
@@ -38,4 +36,4 @@ Please see the `example.py` for more details
 - Adagrad
 - RMSprop
 
-
+@author: Cyrus, Twbadkid @ntu
