@@ -36,4 +36,7 @@ Please see the `example.py` for more details
 - Adagrad
 - RMSprop
 
+##### Requirements:
+Python, Theano, NumPy
+
 @author: Cyrus, Twbadkid @ntu
