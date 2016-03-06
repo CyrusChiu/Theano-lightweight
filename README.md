@@ -1,6 +1,10 @@
 # A lightweight deep learning module
 Implementation of some deep learning models based on Theano, GPU capable.
 
+#### Requirements:
+Python, Theano, NumPy
+
+
 ## Example:
 ```
 from modelcompiler import ModelCompiler
@@ -20,7 +24,7 @@ Please see the `example.py` for more details
 
 
 ### Included models: 
-- DNN (multi-layers MLP)
+- DNN (multi-layer perceptron)
 - Vanilla RNN (Recurrent Neural Networks)
 - LSTM (Long short term memory)
 
@@ -36,7 +40,5 @@ Please see the `example.py` for more details
 - Adagrad
 - RMSprop
 
-##### Requirements:
-Python, Theano, NumPy
 
-@author: Cyrus, Twbadkid @ntu
+**Author:** *Cyrus*, *Twbadkid* @ntu
